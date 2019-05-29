@@ -1,0 +1,6 @@
+
+DB Access Credentials
+Username:	b05fbb7f87f248
+Password:	1f259448 (Reset)
+
+mysql://b05fbb7f87f248:1f259448@us-cdbr-iron-east-02.cleardb.net/heroku_37627c880438cd9?reconnect=true

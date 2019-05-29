@@ -1,0 +1,21 @@
+{
+  "short_name": "Begood",
+  "name": "Begood",
+  "icons": [
+    {
+      "src": "front_assets/images/LOGOWHITE.png",
+      "type": "image/png",
+      "sizes": "253x152"
+    },
+    {
+      "src": "front_assets/images/logo-white.png",
+      "type": "image/png",
+      "sizes": "105x63"
+    }
+  ],
+  "start_url": "/?utm_source=a2hs",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}

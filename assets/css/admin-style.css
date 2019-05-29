@@ -1,0 +1,117 @@
+.upload-profile input[type="file"]{
+	opacity: 0;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    cursor: pointer;
+	border: 1px solid #b6c8ce;
+	line-height: 50px;
+	border-radius: 25px;
+}
+.upload-profile{
+	height: 150px !important;
+    width: 150px !important;
+    border-radius: 50% !important;
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+    background-image: url(../images/upload.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin: 30px auto 10px !important;
+    position: relative;
+    box-shadow: 0px 0px 50px 0px rgba(132,132,132,0.2);
+}
+.upload-profile label{
+	margin-top: -34px;
+    text-align: center !important;
+
+}
+.del-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+    color: #000;
+}
+.del-btn a {
+    color: red;
+    font-size: 13px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    line-height: 26px;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+.custom-panel{
+	padding:30px 10px;position:relative;
+	margin:0 15px;}
+.table-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.6);
+}
+table{position:relative;}
+.table-overlay img{
+	width: 5%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.alert-cust{
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+form .login-form{
+	padding-top: 0;
+}
+img.admin-login-logo {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+/*9-02-2019*/
+.width-300 {
+    width: 300px;
+}
+.dashboard-flex {
+    width: 33.3333%;
+    float: left;
+    display: flex;
+    align-items: center;
+	    justify-content: space-between;
+}
+.input-wrapper{
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+	    flex-wrap: wrap;
+}
+.input-wrapper audio{margin-top:10px;    height: 35px;}
+.audio-loader{
+	width: 300px;
+    height: 60px;
+}
+.audio-loader img{width:100%; height:100%;}
+/*9-02-2019*/
+
+.ajx-result{ font-weight: 500; }
+.ajx-true{ color: green; }
+.ajx-false{ color: red; }
+.icon-upload:before {
+  content: "\e961";
+}
