@@ -15,7 +15,7 @@ class Managecafe extends CI_Controller{
 			// print_r($result);
 		// echo "</pre>"; die;
 		$data['cafes'] = (array)$result;
-		$this->load->layout('admin/Manage_cafe', $data);
+		$this->load->layout('admin/manage_cafe', $data);
 	}
 	
 	public function edit_cafe($cid){
