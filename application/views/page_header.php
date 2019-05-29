@@ -10,7 +10,7 @@
 	<title>Home Page</title>
 	<!---<link rel="manifest" href="manifest.json">-->
 	<link href="<?=FRNT_ASSETS?>css/font-awesome.min.css" rel="stylesheet"><!--bootstrap css-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">	
+	
 	<link href="<?=FRNT_ASSETS?>css/fonts.css" rel="stylesheet"><!--font css-->
 	<link href="<?=FRNT_ASSETS?>css/jquery.mCustomScrollbar.min.css" rel="stylesheet"><!--mscrollbar css-->
 

@@ -648,6 +648,8 @@ img.search-loader{margin: 0 auto; padding: 20px; display: none;}
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    position:relative;
+    top:10px;
 }	
 .heading h3{
 	color: #fff;
