@@ -57,19 +57,19 @@ else { //( $controller != 'welcome' && $controller != 'User_login' && is_user_lo
 					<nav class="navigation">
 						<ul>
 							<li class="<?php echo active_link(array('cards')) ?>">
-								<i class="fas fa-coffee nav-icon"></i>
+								<i class="fa fa-coffee nav-icon"></i>
 								<a href="<?=BASE_URL?>cafe">Cafes</a>
 							</li>
 							<li class="<?php echo active_link(array('map')) ?>">
-								<i class="fas fa-map nav-icon"></i>
+								<i class="fa fa-map nav-icon"></i>
 								<a href="<?=BASE_URL?>map">Nearby</a>
 							</li>
 							<li class="<?php echo active_link(array('user_profile')) ?>">
-								<i class="fas fa-user nav-icon"></i>
+								<i class="fa fa-user nav-icon"></i>
 								<a href="<?=BASE_URL?>profile">Profile</a>
 							</li>
 							<li class="<?php echo active_link(array('about')) ?>">							
-								<i class="fas fa-square nav-icon"></i>
+								<i class="fa fa-square nav-icon"></i>
 								<a href="<?=BASE_URL?>ourstory">About</a>
 							</li>
 							<?php
