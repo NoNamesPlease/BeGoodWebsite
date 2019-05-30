@@ -12,7 +12,7 @@
 							<form method="POST" name="frm_edit_profile" action="#" id="frm_edit_profile">
 								<div class="edit-left">
 									<div class="up-wrap">
-										<div class="in-wrap upload-image" style="background-image: url(<?php echo !empty($userDetails['user_avtar']) ? $userDetails['user_avtar'] : '../images/front_assets/upload.png' ?>); background-size: 100%;">
+										<div class="in-wrap upload-image" style="background-image: url(<?php echo !empty($userDetails['user_avtar']) ? $userDetails['user_avtar'] : '..front_assets/images/upload.png' ?>); background-size: 100%;">
 											<input type="file" name="profile_image" id="profile_image" accept="image/*" class="file-inpt" onchange="readImgURL(this);">
 											<div class="del-btn"><a href="javascript:void(0)" class="clear-img"><i class="fa fa-times" aria-hidden="true"></i></a></div>
 										</div>
