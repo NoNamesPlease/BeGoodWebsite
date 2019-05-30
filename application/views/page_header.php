@@ -72,6 +72,10 @@ else { //( $controller != 'welcome' && $controller != 'User_login' && is_user_lo
 								<i class="fa fa-square nav-icon"></i>
 								<a href="<?=BASE_URL?>ourstory">About</a>
 							</li>
+							<li class="<?php echo active_link(array('logout')) ?>">							
+								<i class="fa fa-square nav-icon"></i>
+								<a href="<?=BASE_URL?>logout">Logout</a>
+							</li>
 							<?php
 							/*if($this->session->userdata('bg_user')){*/
 							?>
