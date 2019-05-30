@@ -54,7 +54,7 @@
 									?>
 										<a href="#">
 											<span class="imp-wrap">
-												<img src="<?=BASE_URL?>uploads/cafe<?=$tline['image']?>" alt="">
+												<img src="<?=BASE_URL?>uploads/<?=$tline['image']?>" alt="">
 											</span>
 											<span class="content">
 												<h4><?=$tline['name']?></h4>
@@ -73,6 +73,8 @@
 								</ul>
 							</div>
 						</div>
+
+						<a href="http://begood.herokuapp.com/logout"/>Logout</a>
 					</div>
 				</div>
 			</div>
