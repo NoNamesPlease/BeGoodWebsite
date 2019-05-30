@@ -1,10 +1,11 @@
 <section class="profile-wrap bg-back" >
 		<div class="container">
+			
 			<div class="row">
 				<div class="col-md-12">
 					<div class="profile-container">
 						<div class="profile-left">
-							<div class="manage-btn"><a href="<?=BASE_URL?>profile/edit">Edit Profile</a></div>
+							<div class="manage-btn"><a href="<?=BASE_URL?>profile/edit">Edit Profile</a><a href="http://begood.herokuapp.com/logout"/>Logout</a></div>
 							<div class="profile-head">
 								<div class="img-wrap"><a href="#"><img src="<?php echo !empty($userDetails['user_avtar']) ? $userDetails['user_avtar'] : FRNT_ASSETS.'images/def-avatar.png' ?>" alt=""></a></div>
 								<?php
@@ -74,7 +75,7 @@
 							</div>
 						</div>
 
-						<a href="http://begood.herokuapp.com/logout"/>Logout</a>
+						
 					</div>
 				</div>
 			</div>
