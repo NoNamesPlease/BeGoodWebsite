@@ -77,7 +77,7 @@ else { //( $controller != 'welcome' && $controller != 'User_login' && is_user_lo
 								<a href="<?=BASE_URL?>logout">Logout</a>
 							</li>
 							<?php
-							/*if($this->session->userdata('bg_user')){*/
+							/*iff($this->session->userdata('bg_user')){*/
 							?>
 							<!--<li class="logout-li"><a href="<?=BASE_URL?>logout">Logout</a></li>-->
 							<?php /*} */
